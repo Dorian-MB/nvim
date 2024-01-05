@@ -3,7 +3,7 @@
 - [Dream Of Code set-up](https://github.com/dreamsofcode-io/neovim-python)
 
 
-# Instalation
+# Installation
 
 ## Make a backup of your current Neovim files:
 ```bash
