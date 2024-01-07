@@ -20,6 +20,8 @@ mv ~/.cache/nvim{,.bak}
 ``` bash
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.cache/nvim
 ```
 
 ## Install in one commande
@@ -29,6 +31,7 @@ git clone https://github.com/Dorian-MB/nvim.git ~/.config/nvim
 
 Then open up neovim and let everything install.
 
+### Install syntax
 Restart Neovim and install the treesitter syntax
 
 ```
