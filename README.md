@@ -37,3 +37,17 @@ Restart Neovim and install the treesitter syntax
 ```
 :TSInstall python
 ```
+
+## Some Mapping :
+
+`<leader>` = space
+
+`p` - dont copy replaced text
+`<leader>p` - does
+
+`<leader>R` - find and replace current word
+
+`J`&`K` - move down/up the selected line
+
+`<leader>bp` - break point
+`<leader>db` - run dubug
