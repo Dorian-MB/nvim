@@ -37,7 +37,7 @@ Then open up neovim and let everything install.
 
 if you need to re-install / update you can use `:MasonInstallAll` (then U to update if needed)
 
-### Install syntax
+### Install treesitter syntax
 Restart Neovim and install the treesitter syntax
 
 ```
