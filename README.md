@@ -40,17 +40,17 @@ Restart Neovim and install the treesitter syntax
 
 ## Some Mapping :
 
-`<leader>` = space
+- `<leader>` = space
 
-`p` - dont copy replaced text
-`<leader>p` - does
+- `p` - dont copy replaced text
+- `<leader>p` - does
 
-`<leader>R` - find and replace current word
+- `<leader>R` - find and replace current word
 
-`J`&`K` - move down/up the selected line
+- `J`&`K` - move down/up the selected line
 
-`<leader>bp` - break point
-`<leader>db` - run dubug
+- `<leader>bp` - break point
+- `<leader>db` - run dubug
 
 
 
