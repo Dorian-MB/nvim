@@ -1,3 +1,7 @@
+# Usage 
+This is a personal nvim config, everything already install.
+
+
 # Credit 
 - [ NvChad distribution ](https://github.com/NvChad/NvChad.git)
 - [Dream Of Code set-up](https://github.com/dreamsofcode-io/neovim-python)
