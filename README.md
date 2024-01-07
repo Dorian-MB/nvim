@@ -38,10 +38,6 @@ Restart Neovim and install the treesitter syntax
 :TSInstall python
 ```
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 62bc9dd50095721799f3d652d3d7c4553a0381d7
 ## Some Mapping :
 
 `<leader>` = space
@@ -55,7 +51,6 @@ Restart Neovim and install the treesitter syntax
 
 `<leader>bp` - break point
 `<leader>db` - run dubug
-<<<<<<< HEAD
 
 
 
