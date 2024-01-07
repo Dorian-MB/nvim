@@ -57,8 +57,3 @@ Restart Neovim and install the treesitter syntax
 
 
 
-
-
-
-=======
->>>>>>> 62bc9dd50095721799f3d652d3d7c4553a0381d7
