@@ -35,6 +35,8 @@ git clone https://github.com/Dorian-MB/nvim.git ~/.config/nvim
 
 Then open up neovim and let everything install.
 
+if you need to re-install / update you can use `:MasonInstallAll` (then U to update if needed)
+
 ### Install syntax
 Restart Neovim and install the treesitter syntax
 
