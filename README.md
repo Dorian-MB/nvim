@@ -38,8 +38,8 @@ Then open up neovim and let everything install.
 if you need to re-install / update you can use `:MasonInstallAll` (then U to update if needed)
 
 ### Install treesitter syntax
-Restart Neovim and install the treesitter syntax
-
+Restart Neovim and install the treesitter syntax <br>
+Exemple :
 ```
 :TSInstall python
 ```
