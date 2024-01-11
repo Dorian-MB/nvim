@@ -52,6 +52,7 @@ Exemple :
 - `<leader>p` - does
 
 - `<leader>R` - find and replace current word
+- `<leader>rr` - find and replace current word from the current position
 
 - `J`&`K` - move down/up the selected line
 

@@ -13,6 +13,8 @@ M.general = {
     },
     n = {
         ["<leader>R"] = {":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gc<Left><Left><Left>", "Find and Replace current word"},
+        ["<leader>rr"] = {":.,$s/\\<<C-r><C-w>\\>/<C-r><C-w>/gc<Left><Left><Left>", "Find and Replace current word from current position"},
+        -- .,$s to apply it from the current line (denoted by .) to the end of the file (denoted by $).
     },
     v = {
         -- Move the selected line up or down (with correct indent)
