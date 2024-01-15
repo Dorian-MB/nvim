@@ -3,12 +3,21 @@ This is a personal nvim config, everything already install.
 
 
 # Credit 
-- [Neovim](https://neovim.io/)
+- [ Neovim ](https://neovim.io/)
 - [ NvChad distribution ](https://github.com/NvChad/NvChad.git)
-- [Dream Of Code set-up](https://github.com/dreamsofcode-io/neovim-python)
+- [ Dream Of Code set-up ](https://github.com/dreamsofcode-io/neovim-python)
 
 
 # Installation
+
+## Install Neovim
+
+[ Install here ](https://github.com/neovim/neovim/blob/master/INSTALL.md)
+
+Exemple on Mac os :
+```bash
+brew install nvim
+```
 
 ## Make a backup of your current Neovim files:
 ```bash
@@ -30,6 +39,8 @@ rm -rf ~/.cache/nvim
 ```
 
 ## Install in one commande
+
+Exemple Mac os:
 ```bash
 git clone https://github.com/Dorian-MB/nvim.git ~/.config/nvim
 ```
