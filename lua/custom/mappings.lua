@@ -28,10 +28,10 @@ M.general_custom = {
         -- Basic shortcut on most editor
         ["<M-Left>"] = {'<C-o>b',opts = { noremap = true, silent = true }, "move cursor to the end of the word"},
         ["<M-Right>"] = {'<C-o>e<C-o>l',opts = { noremap = true, silent = true }, "move cursor to the begening of the word"},
-        ["<M-BS>"] = {'<M-BS>',opts = { noremap = true, silent = true },  "delete to the begening of the word"},
-        ["<M-Del>"] = {'<M-Del>',opts = { noremap = true, silent = true }, "delete to the end of the word"},
+        ["<M-BS>"] = {'<Esc>dbx`[i',opts = { noremap = true, silent = true },  "delete to the begening of the word"},
+        ["<M-Del>"] = {'<Esc>lde`[i',opts = { noremap = true, silent = true }, "delete to the end of the word"},
         ["<C-BS>"] = {'<Esc>d0x`[i',opts = { noremap = true, silent = true },  "delete to the begening of the line"},
-        ["<C-Del>"] = {'<Esc>D`[i',opts = { noremap = true, silent = true },   "delete to the end of the line"},
+        ["<C-Del>"] = {'<Esc>lD`[a',opts = { noremap = true, silent = true },   "delete to the end of the line"},
         -- Map Ctrl+Z to undo in insert mode --> MEGA : WARNING DONT DO IN NORMAL MODE LMAO
         ["<C-z>"] = {'<C-o>u',opts = { noremap = true, silent = true }, "undo in insert mode, WARNING DONT DO IN NORMAL MODE"},
     }
