@@ -1,6 +1,7 @@
 local M = {}
 
 
+
 M.general_custom = {
     x = {
         -- by debault past over a selection doent copy
@@ -15,6 +16,7 @@ M.general_custom = {
     n = {
         ["<leader>R"] = {":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gc<Left><Left><Left>", "Find and Replace current word"},
         ["<leader>rr"] = {":.,$s/\\<<C-r><C-w>\\>/<C-r><C-w>/gc<Left><Left><Left>", "Find and Replace current word from current position"},
+        ["<leader>fr"] = {":.,$s///gc<Left><Left><Left><Left>", "Find and Replace commande from current position"},
         -- .,$s to apply it from the current line (denoted by .) to the end of the file (denoted by $).
     },
 
@@ -34,6 +36,8 @@ M.general_custom = {
         ["<C-Del>"] = {'<Esc>lD`[a',opts = { noremap = true, silent = true },   "delete to the end of the line"},
         -- Map Ctrl+Z to undo in insert mode --> MEGA : WARNING DONT DO IN NORMAL MODE LMAO
         ["<C-z>"] = {'<C-o>u',opts = { noremap = true, silent = true }, "undo in insert mode, WARNING DONT DO IN NORMAL MODE"},
+        ["<C-s>"] = { "<cmd> w <CR>", "Save file" },
+
     }
 }
 
